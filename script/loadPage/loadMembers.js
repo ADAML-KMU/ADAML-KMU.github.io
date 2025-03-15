@@ -1,4 +1,4 @@
-function loadMembers() {
+export function loadMembers() {
     const mainContentsContainer = document.getElementById('main-contents-container');
     
     mainContentsContainer.innerHTML = `

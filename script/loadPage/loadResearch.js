@@ -1,4 +1,4 @@
-function loadResearch() {
+export function loadResearch() {
     const mainContentsContainer = document.getElementById('main-contents-container');
     
     mainContentsContainer.innerHTML = `

@@ -1,4 +1,4 @@
-function loadBoard() {
+export function loadBoard() {
     const mainContentsContainer = document.getElementById('main-contents-container');
     
     mainContentsContainer.innerHTML = `

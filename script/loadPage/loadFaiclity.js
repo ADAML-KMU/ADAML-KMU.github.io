@@ -1,4 +1,4 @@
-function loadFacility() {
+export function loadFacility() {
     const mainContentsContainer = document.getElementById('main-contents-container');
     
     mainContentsContainer.innerHTML = `

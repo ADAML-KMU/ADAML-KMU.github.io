@@ -1,4 +1,4 @@
-function loadPublication() {
+export function loadPublication() {
     const mainContentsContainer = document.getElementById('main-contents-container');
     
     mainContentsContainer.innerHTML = `
