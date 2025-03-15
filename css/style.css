@@ -1379,8 +1379,6 @@ nav {
 @media screen and (max-width: 480px) {.logo-int h4 {font-size: 1.2rem;}}
 
 #gnb {
-    margin-right: 137.17px;
-    
     display: flex;
     justify-content: center;
     align-items: center;
