@@ -1395,7 +1395,7 @@ nav {
     align-items: center;
 }
 
-@media screen and (max-width: 1280px) {header #gnb {display: none;}}
+@media screen and (max-width: 768px) {header #gnb {display: none;}}
 
 header nav li {
     height: 40px;
