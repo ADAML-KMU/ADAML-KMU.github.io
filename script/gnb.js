@@ -1,4 +1,4 @@
-export function initGnb() {
+function initGnb() {
     const figure = document.querySelector("figure");
     const ResearchBtns = document.querySelectorAll("#research-btn");
     const PublicationBtns = document.querySelectorAll("#publication-btn");
