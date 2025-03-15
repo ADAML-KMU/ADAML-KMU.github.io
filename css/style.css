@@ -1,1 +1,95 @@
+/*네비게이션*/
+header {
+    width: 100%;
+    max-width: 1400px;
+    height: 80px;
+    padding: 0% 5%;
 
+    Position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: var(--color-bgb);
+    opacity: 95%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 2
+}
+
+@media screen and (min-width: 1400px){
+    header {
+        left: calc(50% - 700px);
+        right: calc(50% - 700px);
+    }
+}
+
+nav {
+    width: 95%;
+    height: 60px;
+    border-radius: 16px;
+    padding: 10px;
+
+    background-color: transparent;
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-int {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+
+    margin-right: 10px;
+}
+
+.typo {height: 40px; margin-bottom: 10px;}
+@media screen and (max-width: 480px) {.typo {height: 30px;}}
+
+.typo-small {height: 20px;}
+
+.logo-int h4 {font-weight: 900; line-height: 1.0;}
+@media screen and (max-width: 480px) {.logo-int h4 {font-size: 1.2rem;}}
+
+#gnb {
+    margin-right: 137.17px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1280px) {header #gnb {display: none;}}
+
+header nav li {
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 15px;
+    margin: 0 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav li:hover {
+    color: var(--color-primary);
+	transition: .3s ease-in-out;
+}
+
+#gnb-login-link {display: flex;}
