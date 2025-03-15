@@ -18,35 +18,35 @@ function initGnb() {
         ResearchBtns.forEach(ResearchBtn => {
             ResearchBtn.addEventListener("click", async () => {
                 //cleanupBeforeNavigation();
-                const { loadResearch } = await import('./load_page/loadResearch.js');
+                const { loadResearch } = await import('./loadPage/loadResearch.js');
                 loadResearch();
             });
         })
         PublicationBtns.forEach(PublicationBtn => {
             PublicationBtn.addEventListener("click", async () => {
                 //cleanupBeforeNavigation();
-                const { loadPublication } = await import('./load_page/loadPublication.js');
+                const { loadPublication } = await import('./loadPage/loadPublication.js');
                 loadPublication();
             });
         })
         MembersBtns.forEach(MembersBtn => {
             MembersBtn.addEventListener("click", async () => {
                 //cleanupBeforeNavigation();
-                const { loadMembers } = await import('./load_page/loadMembers.js');
+                const { loadMembers } = await import('./loadPage/loadMembers.js');
                 loadMembers();
             });
         })
         FacilityBtns.forEach(FacilityBtn => {
             FacilityBtn.addEventListener("click", async () => {
                 //cleanupBeforeNavigation();
-                const { loadFacility } = await import('./load_page/loadFacility.js');
+                const { loadFacility } = await import('./loadPage/loadFacility.js');
                 loadFacility();
             });
         })
         BoardBtns.forEach(BoardBtn => {
             BoardBtn.addEventListener("click", async () => {
                 //cleanupBeforeNavigation();
-                const { loadBoard } = await import('./load_page/loadBoard.js');
+                const { loadBoard } = await import('./loadPage/loadBoard.js');
                 loadBoard();
             });
         })
