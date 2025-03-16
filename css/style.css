@@ -1562,7 +1562,8 @@ footer {
     height: 300px;
     padding: 20px;
 
-    background-color: var(--color-monotone-1);
+    border-top-color: var(--color-monotone-2);
+    border-top-width: 1px;
 }
 
 /*Pagination*/
