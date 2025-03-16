@@ -1218,6 +1218,10 @@ input::placeholder {
 
 .text-card-body {
     line-height: 1.6;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .text-card-img {
@@ -1225,6 +1229,15 @@ input::placeholder {
     height: 300px;
     border-radius: 8px;
     margin-right: 5px;
+}
+
+.text-card-text {
+    line-height: 1.6;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
 }
 
 /*캐러셀*/
