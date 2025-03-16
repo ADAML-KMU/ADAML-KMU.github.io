@@ -1249,7 +1249,7 @@ input::placeholder {
 /*캐러셀*/
 .carousel-container {
     width: 100%;
-    height: 100px;
+    height: 300px;
     position: relative;
     overflow: hidden;
 }
@@ -1261,7 +1261,7 @@ input::placeholder {
 
 .cell {
     width: 100%;
-    height: 100px;
+    height: 300px;
     padding: 0 10px;
     margin-bottom: 20px;
     border-radius: 16px;
