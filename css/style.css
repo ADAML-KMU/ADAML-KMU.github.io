@@ -1231,7 +1231,10 @@ input::placeholder {
     margin-right: 5px;
 
     background-color: var(--color-monotone-2);
+    flex-shrink: 0;
 }
+
+@media screen and (max-width: 1024px) {.text-card-img{width:100px; height: 150px;}}
 
 .text-card-text {
     line-height: 1.6;
