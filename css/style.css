@@ -31,8 +31,6 @@ figure {
     height: auto;
     max-width: 1400px;
 
-    padding-bottom: 130px;
-
     position: absolute;
     display: flex;
     flex-direction: column;
