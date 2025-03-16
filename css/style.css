@@ -1229,6 +1229,8 @@ input::placeholder {
     height: 300px;
     border-radius: 8px;
     margin-right: 5px;
+
+    background-color: var(--color-monotone-1);
 }
 
 .text-card-text {
