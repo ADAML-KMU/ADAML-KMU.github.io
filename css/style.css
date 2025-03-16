@@ -1220,6 +1220,13 @@ input::placeholder {
     line-height: 1.6;
 }
 
+.text-card-img {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+
 /*캐러셀*/
 .carousel-container {
     width: 100%;
