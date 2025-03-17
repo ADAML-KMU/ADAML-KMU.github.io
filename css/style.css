@@ -717,7 +717,7 @@ label>span {
 }
 
 .box-article-img {
-    width: calc(var(--h4) + var(--h6)*2*1.2 + 5px + 20px - 4pt);
+    width: calc((var(--h4) + var(--h6)*2*1.2 + 5px + 20px - 4pt)*5/7);
     height: calc(var(--h4) + var(--h6)*2*1.2 + 5px + 20px - 4pt);
     margin-right: 10px;
     border-radius: 8px;
