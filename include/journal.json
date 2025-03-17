@@ -3,21 +3,21 @@
       "title": "Simple and scalable manufacturing of metal/carbon hybrid EMI shielding fabric across a broad frequency range",
       "doi": "https://doi.org/10.1016/j.jmrt.2025.01.094",
       "image": "/image/journal/journal001.png",
-      "category": "JMR&T", 
+      "journal": "JMR&T", 
       "date": "2024.03.01"
     },
     {
       "title": "Complex deformation behavior of a partially recrystallized metastable medium-entropy alloy: In-situ synchrotron X-ray diffraction study",
       "doi": "https://doi.org/10.1016/j.actamat.2025.120757",
       "image": "/image/journal/journal002.png",
-      "category": "Acta", 
+      "journal": "Acta", 
       "date": "2025.03.01."
     },
     {
       "title": "Multi-scale design of deformation mechanisms at hetero-zone boundaries: Dual HDI strengthening driven by TRIP effect",
       "doi": "https://doi.org/10.1016/j.jmst.2025.01.032",
       "image": "/image/journal/journal003.png",
-      "category": "JMST", 
+      "journal": "JMST", 
       "date": "2025.03.08."
     }
   ]
