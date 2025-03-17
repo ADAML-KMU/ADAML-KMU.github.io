@@ -199,7 +199,7 @@ hr {/*구분선 디자인*/
 
     display: flex;
     justify-content: flex-start !important;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -919,6 +919,13 @@ label>span {
         width: 90%;
         top: calc(100dvh - 130px);
     }
+}
+
+.banner-img {
+    width: 100%;
+    border-radius: 16px;
+
+    background-color: var(--color-monotone-1);
 }
 
 /*셀렉터*/
