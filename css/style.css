@@ -1563,9 +1563,9 @@ header nav li:hover {
 
 /*푸터*/
 footer {
-    width: 100%;
+    width: 90%;
     height: 300px;
-    padding: 30px;
+    padding: 10px;
     margin-bottom: 100px;
 }
 
