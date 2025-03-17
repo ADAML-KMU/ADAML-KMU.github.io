@@ -1575,6 +1575,16 @@ footer {
     flex-direction: column;
 }
 
+
+@media screen and (max-width: 768px) {
+    footer .group-align-left {
+        display: flex;
+        justify-content: flex-start !important;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
 /*Pagination*/
 .pagination {
     width: 100%;
