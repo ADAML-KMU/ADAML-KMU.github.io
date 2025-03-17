@@ -1216,12 +1216,12 @@ input::placeholder {
 
 .text-card-title {
     line-height: 1.0;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
 }
 
 .text-card-exp {
     line-height: 1.6;
-    margin-bottom: 16px;
+    margin-bottom: 4px;
 }
 
 .text-card-body {
