@@ -728,7 +728,7 @@ label>span {
 }
 
 .box-article-text {
-    width: calc(100% - (var(--h4) + var(--h6)*2*1.2 + 5px + 20px - 4pt));
+    width: calc(100% - (var(--h4) + var(--h6)*2*1.2 + 5px + 20px - 4pt)*5/7);
     height: 100%;
 
     display: flex;
