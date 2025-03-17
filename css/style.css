@@ -194,15 +194,6 @@ hr {/*구분선 디자인*/
     align-items: center;
 }
 
-.group-align-col {
-    width: 100%;
-
-    display: flex;
-    justify-content: flex-start !important;
-    align-items: flex-start;
-    flex-direction: column;
-}
-
 /*기본 폰트 설정*/
 html {
     font-family: 'Pretendard';
