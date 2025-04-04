@@ -2045,7 +2045,7 @@ iframe {
 }
 
 #form-container {
-    height: 100dvh;
+    height: 100dvh - 200px;
 
     display: flex;
     justify-content: center;
