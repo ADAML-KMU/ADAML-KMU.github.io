@@ -18,7 +18,7 @@ body {/*html 바디의 폭을 100%로 고정하고 flex-col 형태로 지정*/
 }
 
 figure {
-    width: 100%; height: auto;
+    width: 100%; max-width: 1400px; height: auto;
     padding-bottom: 0 0 130px 0;
     display: flex; flex-flow: column nowrap; justify-content: center; align-items: center;
     position: absolute;
