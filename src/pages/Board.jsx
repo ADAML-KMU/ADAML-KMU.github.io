@@ -1,5 +1,6 @@
-import { useParams } from 'react-router-dom'
+import { useParams, Link } from 'react-router-dom'
 import PageTitle from '../components/common/PageTitle'
+import noticesData from '../data/notice.json'
 
 function Board() {
   const { tab } = useParams()
@@ -11,46 +12,41 @@ function Board() {
     { id: 'gallery', label: 'Gallery', path: '/board/gallery' }
   ]
 
-  const notices = [
-    {
-      title: '공지사항입니당',
-      subtitle: '수상 실적에 대한 공지사항입니당',
-      content: '얍얍\n얍얍\n얍얍\n?'
-    },
-    {
-      title: '공지사항입니당',
-      subtitle: '수상 실적에 대한 공지사항입니당',
-      content: '얍얍\n얍얍\n얍얍\n?'
-    }
-  ]
-
   const renderContent = () => {
     switch (currentTab) {
       case 'notice':
         return (
           <div className="container">
-            <div className="card-bundle">
-              {notices.map((notice, index) => (
-                <div key={index} className="text-card">
-                  <div className="coupling">
-                    <div className="group-align-std">
-                      <div className="text-card-title"><h4>{notice.title}</h4></div>
-                      <button className="btn-sqr btn-monotone-1">
-                        <span className="material-symbols-rounded">arrow</span>
-                      </button>
-                    </div>
-                    <div className="text-card-exp"><h5>{notice.subtitle}</h5></div>
-                    <div className="text-card-body">
-                      <div className="text-card-text">
-                        {notice.content.split('\n').map((line, i) => (
-                          <span key={i}>{line}<br /></span>
-                        ))}
-                      </div>
-                    </div>
+            {noticesData.map((notice) => (
+              <div key={notice.id} className="box-col gap10">
+                <div className="box-row pd0">
+                  <div className="group-align-left">
+                    <img 
+                      src={notice.image} 
+                      className="img-profile-comment"
+                      alt="Notice icon"
+                    />
+                    <h4>ADAML</h4>
                   </div>
+                  <div className="btn-rtg btn-trans">{notice.date}</div>
                 </div>
-              ))}
-            </div>
+                <h5>{notice.title}</h5>
+                <p style={{ lineHeight: "1.4" }}>
+                  {notice.info}
+                </p>
+                <div className="box-row pd0">
+                  <div className="group-align-left">
+                    <div className="btn-rtg btn-monotone-1">{notice.category}</div>
+                  </div>
+                  <Link to={`/notice/${notice.id}`}>
+                    <button className="btn-rtg btn-primary">
+                      더보기
+                    </button>
+                  </Link>
+                </div>
+                <hr />
+              </div>
+            ))}
           </div>
         )
       case 'awards':
