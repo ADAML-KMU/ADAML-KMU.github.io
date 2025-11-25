@@ -1,5 +1,7 @@
 import { useParams } from 'react-router-dom'
 import PageTitle from '../components/common/PageTitle'
+import students from '../data/students.json'
+import alumni from '../data/alumni.json'
 
 function Members() {
   const { tab } = useParams()
@@ -9,19 +11,6 @@ function Members() {
     { id: 'pi', label: 'Principal Investigator', path: '/members' },
     { id: 'students', label: 'Students', path: '/members/students' },
     { id: 'alumni', label: 'Alumni', path: '/members/alumni' }
-  ]
-
-  const students = [
-    { name: 'ChoHyeon Lee', email: 'cho0410@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'WonHee Jo', email: 'jwonh0104@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'JeongWoong Park', email: 'wjddnd636@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'MinYeong Lee', email: '5368min@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'MinYu Kang', email: 'kminyu@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'SeongHyeon Yang', email: 'sorntmf@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'SeungGyu Hong', email: 'hongsg4665@kookmin.ac.kr', position: 'Undergraduate student', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'HyeonYeong Park', email: 'jury1390@kookmin.ac.kr', position: 'Undergraduate student', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'DaWon Kang', email: 'dawon1242@kookmin.ac.kr', position: 'Undergraduate student', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'HyeongJin Park', email: 'chemilk02@kookmin.ac.kr', position: 'Undergraduate student', research: '연구 분야\n연구 분야\n연구 분야' }
   ]
 
   const renderContent = () => {
@@ -92,7 +81,29 @@ function Members() {
       case 'alumni':
         return (
           <div className="container">
-            <h3>Alumni information will be updated soon.</h3>
+            <div className="card-bundle">
+              {alumni.map((member, index) => (
+                <div key={index} className="text-card">
+                  <div className="coupling">
+                    <div className="group-align-std">
+                      <div className="text-card-title"><h4>{member.name}</h4></div>
+                      {member.email && (
+                        <a href={`mailto:${member.email}`} className="btn-sqr btn-monotone-1">
+                          <span className="material-symbols-rounded">mail</span>
+                        </a>
+                      )}
+                    </div>
+                    <div className="text-card-exp"><h5>{member.degree} ({member.graduationYear})</h5></div>
+                    <div className="text-card-body">
+                      <div className="text-card-text">
+                        Current Position | {member.employment}<br />
+                        Contact | {member.email}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         )
       default:

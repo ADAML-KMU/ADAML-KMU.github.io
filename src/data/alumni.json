@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Name",
+    "degree": "Degree",
+    "graduationYear": "YYYY",
+    "employment": "Employment",
+    "email": "email@example.com"
+  }
+]
+
