@@ -14,7 +14,7 @@ function Members() {
   const students = [
     { name: 'ChoHyeon Lee', email: 'cho0410@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
     { name: 'WonHee Jo', email: 'jwonh0104@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
-    { name: 'JeungWoong Park', email: 'wjddnd636@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
+    { name: 'JeongWoong Park', email: 'wjddnd636@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
     { name: 'MinYeong Lee', email: '5368min@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
     { name: 'MinYu Kang', email: 'kminyu@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
     { name: 'SeongHyeon Yang', email: 'sorntmf@kookmin.ac.kr', position: 'Master Course', research: '연구 분야\n연구 분야\n연구 분야' },
