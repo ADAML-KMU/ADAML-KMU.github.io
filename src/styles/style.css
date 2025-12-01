@@ -57,9 +57,9 @@ hr {/*구분선 디자인*/
 /*variable*/
 :root {
     /*color*/
-    --color-primary: #0069ef;
-    --color-sub-1: #3690ff;
-    --color-sub-2: #96ccff;
+    --color-primary: #B8956A;
+    --color-sub-1: #D4C4B0;
+    --color-sub-2: #F5EFE6;
     --color-monotone-1: #f3f3f3;
     --color-monotone-2: #cccccc;
     --color-monotone-3: #999999;
@@ -100,9 +100,9 @@ hr {/*구분선 디자인*/
 @media (prefers-color-scheme: dark) {
     :root {
         /*color*/
-        --color-primary: #187eed;
-        --color-sub-1: #4da6ff;
-        --color-sub-2: #a6d7ff;
+        --color-primary: #C9A87C;
+        --color-sub-1: #B8956A;
+        --color-sub-2: #8B7355;
         --color-monotone-1: #333333;
         --color-monotone-2: #666666;
         --color-monotone-3: #999999;
@@ -1669,13 +1669,13 @@ footer {
 .landing-bar1 {
     width: 50%;
 
-    background: linear-gradient(rgba(0, 105, 239, 0.5), var(--color-primary) 50%);
+    background: linear-gradient(rgba(184, 149, 106, 0.5), var(--color-primary) 50%);
 }
 
 .landing-bar2 {
     width: 50%;
 
-    background: linear-gradient(transparent, rgba(0, 105, 239, 0.5) 80%);
+    background: linear-gradient(transparent, rgba(184, 149, 106, 0.5) 80%);
 }
 
 .landing-article {

@@ -1,0 +1,31 @@
+{
+  "aerospace": {
+    "title": "Aerospace Materials",
+    "subtitle": "Next-generation materials for aircraft and spacecraft",
+    "contentEn": "Development of lightweight, high-strength materials for next-generation aircraft and spacecraft. We focus on superalloys and composite materials that can withstand extreme conditions while improving fuel efficiency.",
+    "contentKo": "차세대 항공기 및 우주선을 위한 경량 고강도 소재 개발을 진행합니다. 극한의 환경을 견디면서도 연료 효율을 높일 수 있는 초합금 및 복합 소재 연구에 주력하고 있습니다.",
+    "image": "/image/research/aerospace.jpg"
+  },
+  "defense": {
+    "title": "Defense Materials",
+    "subtitle": "Advanced armor and structural materials",
+    "contentEn": "Research on advanced armor and structural materials for defense applications. Our goal is to enhance protection capabilities and durability through innovative material design and processing technologies.",
+    "contentKo": "국방 분야 적용을 위한 첨단 장갑 및 구조용 소재를 연구합니다. 혁신적인 소재 설계 및 공정 기술을 통해 방호 능력과 내구성을 향상시키는 것을 목표로 합니다.",
+    "image": "/image/research/defense.jpg"
+  },
+  "ai-analysis": {
+    "title": "AI-Driven Material Analysis & Verification",
+    "subtitle": "Intelligent analysis for microstructure and properties",
+    "contentEn": "We utilize AI to analyze complex microstructures and verify material properties with high precision. By integrating deep learning with advanced microscopy data, we achieve rapid and accurate characterization that goes beyond traditional analysis limits.",
+    "contentKo": "인공지능을 활용하여 복잡한 미세조직을 분석하고 소재 물성을 고정밀로 검증합니다. 딥러닝과 첨단 현미경 데이터를 통합하여 기존 분석의 한계를 뛰어넘는 신속하고 정확한 특성 평가를 수행합니다.",
+    "image": "/image/research/ai-analysis.jpg"
+  },
+  "super-alloy": {
+    "title": "Super Alloy",
+    "subtitle": "High-performance alloys for extreme conditions",
+    "contentEn": "Research on superalloys designed to maintain mechanical strength and resistance to creep, corrosion, and oxidation at extremely high temperatures. These materials are essential for aerospace engines and industrial gas turbines.",
+    "contentKo": "극도로 높은 온도에서도 기계적 강도와 크리프, 부식 및 산화 저항성을 유지하도록 설계된 초합금을 연구합니다. 이러한 소재는 항공우주 엔진 및 산업용 가스 터빈의 핵심 요소입니다.",
+    "image": "/image/research/super-alloy.jpg"
+  }
+}
+
