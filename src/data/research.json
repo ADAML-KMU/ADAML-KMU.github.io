@@ -4,34 +4,34 @@
     "subtitle": "Advanced characterization and analysis of material microstructures",
     "contentEn": "We conduct comprehensive microstructure analysis using state-of-the-art characterization techniques to understand the fundamental relationships between material structure and properties. Our research employs scanning electron microscopy (SEM), transmission electron microscopy (TEM), electron backscatter diffraction (EBSD), X-ray diffraction (XRD), atom probe tomography (APT), and advanced spectroscopy methods to investigate phase distributions, grain structures, crystallographic orientations, precipitation behavior, and defect characteristics. Through detailed quantitative analysis of microstructural features including grain size distribution, texture evolution, phase fractions, and interface characteristics, we establish correlations between processing conditions, microstructural evolution, and resulting material properties. Our work encompasses in-situ and ex-situ characterization under various thermal and mechanical loading conditions to understand dynamic microstructural changes. We develop advanced image analysis algorithms and machine learning approaches for automated microstructure quantification and pattern recognition. Our research provides critical insights for optimizing material processing routes, heat treatment schedules, and alloy compositions to achieve desired microstructural features that enhance mechanical properties, corrosion resistance, and high-temperature performance.",
     "contentKo": "소재 구조와 물성 간의 근본적인 관계를 이해하기 위해 최첨단 특성 평가 기법을 사용한 포괄적인 미세조직 분석을 수행합니다. 주사전자현미경(SEM), 투과전자현미경(TEM), 전자후방산란회절(EBSD), X선 회절(XRD), 원자탐침단층촬영(APT) 및 첨단 분광법을 활용하여 상 분포, 결정립 구조, 결정학적 방위, 석출 거동 및 결함 특성을 조사합니다. 결정립 크기 분포, 집합조직 진화, 상 분율 및 계면 특성을 포함한 미세조직 특징에 대한 상세한 정량 분석을 통해 공정 조건, 미세조직 진화 및 결과적인 소재 물성 간의 상관관계를 확립합니다. 다양한 열적 및 기계적 하중 조건에서의 동적 미세조직 변화를 이해하기 위한 in-situ 및 ex-situ 특성 평가를 수행합니다. 자동화된 미세조직 정량화 및 패턴 인식을 위한 첨단 이미지 분석 알고리즘 및 머신러닝 접근법을 개발합니다. 기계적 특성, 내식성 및 고온 성능을 향상시키는 원하는 미세조직 특징을 달성하기 위해 소재 공정 경로, 열처리 일정 및 합금 조성을 최적화하는 데 중요한 통찰을 제공합니다.",
-    "image": "/image/research/microstructure-analysis.jpg"
+    "image": "/image/banner/image00.png"
   },
   "aerospace-defense": {
     "title": "Aerospace and Defense Materials",
     "subtitle": "Advanced materials for aerospace and defense applications",
     "contentEn": "Our research focuses on developing advanced materials capable of operating under extreme high-temperature and harsh environmental conditions for next-generation aircraft, spacecraft, and defense systems. We specialize in the design and development of superalloys, high-temperature composite materials, and advanced armor systems that maintain exceptional mechanical properties and structural integrity when exposed to temperatures exceeding 1000°C, extreme pressure differentials, corrosive atmospheres, and high-velocity impacts. Through comprehensive microstructure analysis using advanced characterization techniques including scanning electron microscopy (SEM), transmission electron microscopy (TEM), electron backscatter diffraction (EBSD), and X-ray diffraction (XRD), we investigate the relationship between processing parameters, microstructural evolution, and material performance. Our research encompasses detailed analysis of phase transformations, grain boundary characteristics, precipitation behavior, and defect structures that govern material behavior under extreme conditions. We develop predictive models linking microstructure to mechanical properties such as creep resistance, fatigue life, fracture toughness, and oxidation resistance. Our work extends to optimizing heat treatment processes, alloy compositions, and manufacturing routes to achieve desired microstructural features that enhance material performance in aerospace propulsion systems, thermal protection systems, and defense applications requiring superior reliability and durability.",
     "contentKo": "차세대 항공기, 우주선 및 국방 시스템을 위한 고온 및 극한 환경 조건에서 작동할 수 있는 첨단 소재 개발에 중점을 둡니다. 1000°C를 초과하는 온도, 극심한 압력 차이, 부식성 대기 및 고속 충격에 노출될 때도 뛰어난 기계적 특성과 구조적 무결성을 유지하는 초합금, 고온 복합 소재 및 첨단 장갑 시스템의 설계 및 개발에 특화되어 있습니다. 주사전자현미경(SEM), 투과전자현미경(TEM), 전자후방산란회절(EBSD) 및 X선 회절(XRD)을 포함한 첨단 특성 평가 기법을 사용한 포괄적인 미세조직 분석을 통해 공정 매개변수, 미세조직 진화 및 소재 성능 간의 관계를 조사합니다. 극한 조건에서 소재 거동을 지배하는 상변태, 입계 특성, 석출 거동 및 결함 구조에 대한 상세 분석을 수행합니다. 크리프 저항성, 피로 수명, 파괴 인성 및 산화 저항성과 같은 기계적 특성에 대한 미세조직과의 예측 모델을 개발합니다. 항공우주 추진 시스템, 열 보호 시스템 및 우수한 신뢰성과 내구성이 필요한 국방 응용 분야에서 소재 성능을 향상시키는 원하는 미세조직 특성을 달성하기 위해 열처리 공정, 합금 조성 및 제조 경로를 최적화하는 작업을 수행합니다.",
-    "image": "/image/research/aerospace-defense.jpg"
+    "image": "/image/banner/image01.png"
   },
   "high-entropy-alloy": {
     "title": "High Entropy Alloys",
     "subtitle": "Multi-principal element alloys with exceptional properties",
     "contentEn": "Research on high entropy alloys (HEAs) composed of multiple principal elements in near-equimolar ratios. These novel materials exhibit exceptional mechanical properties, high-temperature stability, and superior corrosion resistance. We investigate the relationship between composition, microstructure, and properties to design HEAs for aerospace, defense, and industrial applications.",
     "contentKo": "거의 등몰 비율의 다중 주원소로 구성된 고엔트로피합금(HEA)을 연구합니다. 이러한 새로운 소재는 뛰어난 기계적 특성, 고온 안정성 및 우수한 내식성을 나타냅니다. 조성, 미세조직 및 물성 간의 관계를 조사하여 항공우주, 국방 및 산업 응용 분야를 위한 HEA를 설계합니다.",
-    "image": "/image/research/high-entropy-alloy.jpg"
+    "image": "/image/banner/image02.png"
   },
   "additive-manufacturing": {
     "title": "Additive Manufacturing",
     "subtitle": "3D printing and advanced manufacturing technologies",
     "contentEn": "Development of additive manufacturing processes for complex metallic components, including selective laser melting (SLM), electron beam melting (EBM), and directed energy deposition (DED). We optimize process parameters, investigate microstructure evolution, and enhance mechanical properties of additively manufactured materials for aerospace and defense applications.",
     "contentKo": "선택적 레이저 용융(SLM), 전자빔 용융(EBM) 및 직접 에너지 증착(DED)을 포함한 복잡한 금속 부품의 적층제조 공정을 개발합니다. 공정 매개변수를 최적화하고, 미세조직 진화를 조사하며, 항공우주 및 국방 응용 분야를 위한 적층제조 소재의 기계적 특성을 향상시킵니다.",
-    "image": "/image/research/additive-manufacturing.jpg"
+    "image": "/image/banner/image03.png"
   },
   "ai-material-analysis": {
     "title": "AI Material Analysis",
     "subtitle": "Intelligent analysis and prediction of material properties",
     "contentEn": "We utilize artificial intelligence and machine learning to analyze complex microstructures, predict material properties, and optimize material design. By integrating deep learning with advanced microscopy data, computational modeling, and experimental results, we achieve rapid and accurate material characterization that accelerates the development of new materials.",
     "contentKo": "인공지능과 머신러닝을 활용하여 복잡한 미세조직을 분석하고, 소재 물성을 예측하며, 소재 설계를 최적화합니다. 딥러닝과 첨단 현미경 데이터, 계산 모델링 및 실험 결과를 통합하여 신속하고 정확한 소재 특성 평가를 수행하며, 새로운 소재 개발을 가속화합니다.",
-    "image": "/image/research/ai-material-analysis.jpg"
+    "image": "/image/banner/image04.png"
   }
 }
