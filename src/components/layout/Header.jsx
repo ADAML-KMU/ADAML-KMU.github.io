@@ -6,16 +6,13 @@ function Header() {
       <header>
         <nav>
           <Link to="/" className="logo-group">
-            <img src="/image/emblem_color.svg" className="btn-sqr mgl0 mgr10" alt="ADAML Logo" />
-            <div className="logo-int">
-              <h4>ADAML</h4>
-            </div>
+            <img src="/image/adaml_logo.png" className="btn-rtg mgl0 mgr10" alt="ADAML Logo" />
           </Link>
           <ul id="gnb">
             <li><Link to="/research">Research</Link></li>
             <li><Link to="/publication">Publication</Link></li>
             <li><Link to="/members">Members</Link></li>
-            <li><Link to="/facility">Facility</Link></li>
+            {/* <li><Link to="/facility">Facility</Link></li> */}
             <li><Link to="/board">Board</Link></li>
           </ul>
         </nav>
@@ -40,12 +37,12 @@ function Header() {
               <h6>Members</h6>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/facility" className="btn-rtg btn-trans pd0">
               <span className="material-symbols-rounded">construction</span>
               <h6>Facility</h6>
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/board" className="btn-rtg btn-trans pd0">
               <span className="material-symbols-rounded">forum</span>

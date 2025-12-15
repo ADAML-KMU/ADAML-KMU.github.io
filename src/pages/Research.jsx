@@ -4,13 +4,14 @@ import researchData from '../data/research.json'
 
 function Research() {
   const { tab } = useParams()
-  const currentTab = tab || 'aerospace'
+  const currentTab = tab || 'microstructure-analysis'
 
   const tabs = [
-    { id: 'aerospace', label: 'Aerospace', path: '/research' },
-    { id: 'defense', label: 'Defense', path: '/research/defense' },
-    { id: 'ai-analysis', label: 'AI Analysis', path: '/research/ai-analysis' },
-    { id: 'super-alloy', label: 'Super Alloy', path: '/research/super-alloy' }
+    { id: 'microstructure-analysis', label: 'Microstructure Analysis', path: '/research' },
+    { id: 'aerospace-defense', label: 'Aerospace and Defense Materials', path: '/research/aerospace-defense' },
+    { id: 'high-entropy-alloy', label: 'High Entropy Alloys', path: '/research/high-entropy-alloy' },
+    { id: 'additive-manufacturing', label: 'Additive Manufacturing', path: '/research/additive-manufacturing' },
+    { id: 'ai-material-analysis', label: 'AI Material Analysis', path: '/research/ai-material-analysis' }
   ]
 
   const content = researchData[currentTab]

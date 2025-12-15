@@ -5,7 +5,7 @@ function PageTitle({ title, subtitle, tabs, currentTab, basePath }) {
     <div className="container" id="area-title">
       <div className="article-title">
         <h1>{title}</h1>
-        <h3>{subtitle}</h3>
+        {subtitle && <h3>{subtitle}</h3>}
       </div>
       {tabs && tabs.length > 0 && (
         <div className="selector">

@@ -9,10 +9,10 @@ function Layout() {
         <article>
           <Outlet />
         </article>
-        <div style={{ width: '100%' }}>
-          <Footer />
-        </div>
       </figure>
+      <div style={{ width: '100%' }}>
+        <Footer />
+      </div>
       <Header />
     </>
   )
