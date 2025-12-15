@@ -142,13 +142,13 @@ export default function CustomCalendar({
           justifyContent: "space-between", 
           alignItems: "center", 
           gap: "8px",
-          border: "1px solid #ddd",
+          border: "1px solid var(--color-monotone-2)",
           borderRadius: "8px",
-          background: "white"
+          background: "var(--color-bg)"
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "8px", flex: 1, minWidth: 0 }}>
-          <span className="material-symbols-rounded" style={{ fontSize: "20px", flexShrink: 0, color: "#666" }}>
+          <span className="material-symbols-rounded" style={{ fontSize: "20px", flexShrink: 0, color: "var(--color-monotone-4)" }}>
             calendar_month
           </span>
           <input
@@ -156,6 +156,7 @@ export default function CustomCalendar({
             placeholder={placeholder || "Select date range"}
             value={displayText()}
             readOnly
+            className="calendar-input"
             style={{
               padding: "0",
               border: "none", 
@@ -165,7 +166,8 @@ export default function CustomCalendar({
               flex: 1,
               minWidth: 0,
               width: "100%",
-              fontSize: "14px"
+              fontSize: "14px",
+              color: "var(--color-text)"
             }}
           />
         </div>
@@ -177,7 +179,7 @@ export default function CustomCalendar({
               fontSize: "20px",
               flexShrink: 0,
               cursor: "pointer",
-              color: "#999"
+              color: "var(--color-monotone-4)"
             }}
           >
             close
@@ -190,7 +192,7 @@ export default function CustomCalendar({
             transform: isOpen ? "rotate(180deg)" : "rotate(0deg)",
             transition: "transform 0.2s ease",
             flexShrink: 0,
-            color: "#666"
+            color: "var(--color-monotone-4)"
           }}
         >
           expand_more
@@ -203,13 +205,13 @@ export default function CustomCalendar({
           style={{
             position: "absolute",
             marginTop: "5px",
-            background: "white",
-            border: "1px solid #ddd",
+            background: "var(--color-bg)",
+            border: "1px solid var(--color-monotone-2)",
             borderRadius: "8px",
             padding: "16px",
             zIndex: 1000,
             width: "370px",
-            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)"
+            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.3)"
           }}
         >
           {/* 헤더 */}
@@ -221,7 +223,7 @@ export default function CustomCalendar({
               marginBottom: "20px"
             }}
           >
-            <div style={{ fontSize: "16px", fontWeight: 600 }}>
+            <div style={{ fontSize: "16px", fontWeight: 600, color: "var(--color-text)" }}>
               {currentYear}년 {currentMonth + 1}월
             </div>
             <div style={{ display: "flex", gap: "12px" }}>
@@ -233,7 +235,8 @@ export default function CustomCalendar({
                   cursor: "pointer",
                   padding: "4px",
                   display: "flex",
-                  alignItems: "center"
+                  alignItems: "center",
+                  color: "var(--color-text)"
                 }}
               >
                 <span className="material-symbols-rounded" style={{ fontSize: "20px" }}>
@@ -248,7 +251,8 @@ export default function CustomCalendar({
                   cursor: "pointer",
                   padding: "4px",
                   display: "flex",
-                  alignItems: "center"
+                  alignItems: "center",
+                  color: "var(--color-text)"
                 }}
               >
                 <span className="material-symbols-rounded" style={{ fontSize: "20px" }}>
@@ -269,7 +273,7 @@ export default function CustomCalendar({
             }}
           >
             {["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].map((day) => (
-              <div key={day} style={{ fontSize: "12px", fontWeight: 500, color: "#999" }}>
+              <div key={day} style={{ fontSize: "12px", fontWeight: 500, color: "var(--color-monotone-4)" }}>
                 {day}
               </div>
             ))}
@@ -295,16 +299,16 @@ export default function CustomCalendar({
                     aspectRatio: "1",
                     borderRadius: "50%",
                     background: isSelected
-                      ? "#007bff"
+                      ? "var(--color-primary)"
                       : inRange
-                      ? "#e3f2fd"
+                      ? "var(--color-sub-2)"
                       : "transparent",
                     color: isSelected 
                       ? "white" 
                       : inRange 
-                      ? "#333" 
+                      ? "var(--color-text)" 
                       : dateObj 
-                      ? "#333" 
+                      ? "var(--color-text)" 
                       : "transparent",
                     display: "flex",
                     alignItems: "center",
@@ -316,7 +320,7 @@ export default function CustomCalendar({
                   onClick={() => dateObj && handleDateClick(dateObj)}
                   onMouseEnter={(e) => {
                     if (dateObj && !isSelected && !inRange) {
-                      e.currentTarget.style.background = "#f5f5f5";
+                      e.currentTarget.style.background = "var(--color-monotone-1)";
                     }
                   }}
                   onMouseLeave={(e) => {
@@ -335,7 +339,7 @@ export default function CustomCalendar({
           <div style={{ 
             marginTop: "16px", 
             fontSize: "12px", 
-            color: "#999", 
+            color: "var(--color-monotone-4)", 
             textAlign: "center" 
           }}>
             {selectingStart ? "시작 날짜를 선택하세요" : "종료 날짜를 선택하세요"}
